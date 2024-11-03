@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.card{
+    height: 700px;
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: 3px solid red;
+    margin: 150px 600px;
+    padding: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input[type="text"]{
+    flex: 1;    
+    padding: 20px;
+    border: 1px solid aqua;
+    font-size: 1.6rem;
+    border-radius: 15px;
+    margin: 3px;
+}
+.search i{
+    font-size: 3rem;
+    border: none;
+    background-color: aqua;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+.search i:hover{
+    background-color: rgb(18, 114, 127);
+}
+.search button{
+    border: none;
+}
+.city-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    gap :5px;
+}
+.city-date .city{
+    font-size: 2rem;
+}
+.temp-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+}
+.temp-info i{
+    font-size: 4rem;
+}
+.temp-info .info{
+    font-size: 1.6rem;
+}
+.temp-info .temp{
+    font-size: 6rem;
+}  
+.add-info{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: (0,0,0,0.24) 0px 3px 8px;
+} 
+.wind{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 5px;
+}
+.wind i{
+    font-size: 5rem;
+}
+.wind .wind-speed{
+    font-size: 3rem;
+}
+.wind .wind-label{
+    font-size: 2rem;
+}
+.humidity{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 5px;
+}
+.humidity i{
+    font-size: 5rem;
+}
+.humidity .humidity-percent{
+    font-size: 3rem;
+}
+.humidity .humidity-label{
+    font-size: 2rem;
+}
+.visibility{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 5px;
+}
+.visibility i{
+    font-size: 5rem;
+}
+.visibility .visibility-km{
+    font-size: 3rem;
+}
+.visibility .visibility-label{
+    font-size: 2rem;
+}
+
+
